@@ -1,12 +1,22 @@
 header {
-  height: 138px;
-  width: 100%;
   background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 38px 48px;
 }
 
 .logo{
   width: 68px;
   height: 64px;
   display: inline-block;
-  margin: 37px 0 0 48px;
+  align-items: start;
+}
+
+.navigation-menu{
+  margin-top: 24px;
+}
+
+nav{
+   display: none;
 }
