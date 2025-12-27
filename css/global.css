@@ -29,7 +29,7 @@
 }
 
 [data-theme="dark"] {
-    --header-background: #ff0000;
+  --header-background: #ff0000;
 }
 
 /* RESET */
@@ -43,12 +43,13 @@ label,
 input,
 select,
 textarea,
-button {
+button,
+header {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-    font-family: "montserrat", "sans-serif";
+body {
+  font-family: "montserrat", "sans-serif";
 }
