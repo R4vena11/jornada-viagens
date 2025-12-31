@@ -30,7 +30,7 @@
     background: url(../img/banner-homepage-desktop.jpg) no-repeat;
     background-size: cover;
   }
-  .hero h2{
+  .hero h2 {
     padding: 88px 120px;
   }
 }
@@ -40,7 +40,7 @@
     background: url(../img/banner-homepage-desktop.jpg) no-repeat;
     background-size: cover;
   }
-  .hero h2{
+  .hero h2 {
     padding: 88px 160px;
   }
 }
