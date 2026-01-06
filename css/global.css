@@ -79,7 +79,7 @@ body {
   background-color: var(--secondary-color);
   border-radius: 16px;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   line-height: 64px;
 }
 
