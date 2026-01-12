@@ -55,14 +55,14 @@ body {
   color: var(--text-primary-color);
 }
 
-.section-title h2{
+.section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
 }
 
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -70,7 +70,7 @@ body {
   margin: 16px auto 32px;
 }
 
-.button{
+.button {
   width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
@@ -83,13 +83,14 @@ body {
   line-height: 64px;
 }
 
-@media screen and (min-width:768) {
-  .section-title h2{
-  font-size: 32px;}
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
   }
 }
