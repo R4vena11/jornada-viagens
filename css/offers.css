@@ -86,15 +86,16 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .offers-cards .card {
-    width: 588px;
+@media screen and (min-width: 983px) and (max-width: 1020px) {
+  .offers-cards {
+    width: 648px;
+    margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1020px) {
   .offers-cards {
-    width: 1250px;
+    width: 864px;
     margin: 0 auto;
   }
 }

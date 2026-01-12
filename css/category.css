@@ -6,6 +6,11 @@
   margin-top: 64px;
 }
 .categoryes-cards a.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
   width: 312px;
   height: 220px;
   background-color: var(--background-secondary-color);
@@ -17,11 +22,27 @@
   color: var(--text-primary-color);
 }
 
+.card img{
+  width: 49px
+}
+
 .categoryes-cards .card h3 {
   font-size: 28px;
   font-weight: var(--titles-weight);
+  margin: 0;
 }
 
-.categoryes-cards .card.single-line {
-  padding-top: 50px;
+@media screen and (min-width: 768px) {
+  .categoryes-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 984px) and (max-width: 1400px) {
+  .categoryes-cards {
+    width: 648px;
+    margin: 0 auto;
+  } 
 }
