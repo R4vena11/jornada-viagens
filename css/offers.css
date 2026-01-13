@@ -86,6 +86,7 @@
   }
 }
 
+
 @media screen and (min-width: 983px) and (max-width: 1020px) {
   .offers-cards {
     width: 648px;
@@ -97,5 +98,20 @@
   .offers-cards {
     width: 864px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .offers-cards .card {
+    width: 555px;
+  }
+  .offers-cards {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .offers-cards .card {
+    width: 588px;
   }
 }
