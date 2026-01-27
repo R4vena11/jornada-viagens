@@ -73,10 +73,11 @@
 @media screen and (min-width: 1440px) {
   .grid-pay {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 64px auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: start;
+    padding: 0 120px;
   }
 
   .tablet-pay-image-flex {
@@ -85,5 +86,14 @@
 
   .tablet-pay-image {
     max-width: 100%;
+  }
+
+  .installment{
+    width: 300px;
+  }
+
+  .pay-description{
+    line-height: 1.6;
+    max-width: 384px;
   }
 }
