@@ -32,6 +32,8 @@
   font-weight: var(--texte-weight);
   margin-top: 24px;
   font-size: 20px;
+  line-height: 1.5;
+  
 }
 
 .destinations .button {
